@@ -27,5 +27,11 @@ elif random_number == 9:
 else:
   answer = "Error"
 
-print(name,"asks:",question)
-print("Magic 8-Ball's answer:",answer)
+if question == "":
+  print("The fabric of reality is being destroyed. Congrat lad.")
+else:
+  if name == "":
+    print("Question:", question)
+  else:
+    print(name,"asks:",question)
+  print("Magic 8-Ball's answer:",answer)
